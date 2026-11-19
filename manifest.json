@@ -1,0 +1,951 @@
+{
+  "about": "SlideCraft .pptx round-trip corpus. Each deck keeps its own licence (all CC-BY-4.0); see ATTRIBUTION.md.",
+  "selected": "2026-11-19",
+  "test": "crates/engine/tests/it/pptx_roundtrip.rs: an_external_corpus_survives_a_pptx_round_trip",
+  "decks": [
+    {
+      "file": "01-premis-tutorial-137-slides.pptx",
+      "title": "PREMIS Tutorial at iPres2022",
+      "authors": [
+        "PREMIS Editorial Committee"
+      ],
+      "published": "2022-09-12",
+      "landing_page": "https://zenodo.org/records/7097121",
+      "doi": "10.5281/zenodo.7097121",
+      "original_file_name": "iPRES2022_PREMIS_Tutorial_20220912.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/7097121",
+      "modified": false,
+      "authoring_app": "Microsoft Office PowerPoint 16.0000 (2016 or later (Microsoft 365))",
+      "docprops_creator": "PREMIS Editorial Committee",
+      "slides": 137,
+      "slide_size_emu": [
+        9144000,
+        6858000
+      ],
+      "aspect": "4:3",
+      "features": [
+        "custom masters/layouts (2 masters, 22 layouts)",
+        "theme \"Bambusfletværk\"",
+        "tables: 1",
+        "groups: 198",
+        "cropped pictures: 79",
+        "entrance effects: 605",
+        "emphasis effects: 77",
+        "exit effects: 118",
+        "motion paths: 7",
+        "hyperlinks: 48",
+        "notes slide parts: 133",
+        "slides with <p:transition>: 2",
+        "embedded fonts"
+      ],
+      "why": "Large deck (137 slides), 4:3, all four animation classes, embedded fonts, two masters, custom theme",
+      "sha256": "4ecf45aac5be431974e1c498159fe9e04b3d9e06d5a791caf047415c9184ccd1",
+      "md5_matches_zenodo": true,
+      "bytes": 7895366,
+      "round_trip": {
+        "summary": "137 slides, 0 parts damaged on open, 1 losses",
+        "losses": [
+          "slide 89: 23 animations became 21"
+        ]
+      },
+      "first_open": {
+        "package": {
+          "slides": 137,
+          "animations": 807,
+          "transitions": 2,
+          "morph": 0,
+          "notes": 22,
+          "sections": 0,
+          "layouts": 22,
+          "av_media": 0,
+          "charts": 0,
+          "smartart": 0,
+          "embedded_fonts": 6
+        },
+        "loaded": {
+          "slides": 137,
+          "animations": 807,
+          "transitions": 2,
+          "morph": 0,
+          "notes": 22,
+          "sections": 0,
+          "layouts": 11,
+          "av_media": 0,
+          "slide_size_pt": [
+            720.0,
+            540.0
+          ]
+        },
+        "animation_slides_that_differ": []
+      },
+      "speaker_notes_non_empty": 22,
+      "path": "decks/01-premis-tutorial-137-slides.pptx",
+      "source_url": "https://zenodo.org/records/7097121/files/iPRES2022_PREMIS_Tutorial_20220912.pptx?download=1"
+    },
+    {
+      "file": "02-morph-smartart-nl.pptx",
+      "title": "Samen beslissen & waardenverheldering met patiënten met beperkte gezondheidsvaardigheden",
+      "authors": [
+        "Vriese, Laura"
+      ],
+      "published": "2026-11-20",
+      "landing_page": "https://zenodo.org/records/24307200",
+      "doi": "10.5281/zenodo.24307200",
+      "original_file_name": "Presentatie LauraVriese SDM Connect 2026.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/24307200",
+      "modified": false,
+      "authoring_app": "Microsoft Office PowerPoint 16.0000 (2016 or later (Microsoft 365))",
+      "docprops_creator": "Hendriks, Dionne (BU)",
+      "slides": 14,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "custom masters/layouts (2 masters, 77 layouts)",
+        "theme \"24-columns - Cover\"",
+        "SmartArt diagrams: 8",
+        "groups: 8",
+        "cropped pictures: 3",
+        "entrance effects: 40",
+        "Morph slides: 7",
+        "hyperlinks: 2",
+        "notes slide parts: 3",
+        "slides with <p:transition>: 7"
+      ],
+      "why": "Morph transitions, SmartArt, two masters with 77 layouts",
+      "sha256": "82f5cf3de93dc890228882e4e84f9f35f1859c3fa1a535702704f2c740a0ae12",
+      "md5_matches_zenodo": true,
+      "bytes": 9338377,
+      "round_trip": {
+        "summary": "14 slides, 0 parts damaged on open, 10 losses",
+        "losses": [
+          "slide 1: 2.471% of pixels differ",
+          "slide 2: 1.221% of pixels differ",
+          "slide 3: 2.370% of pixels differ",
+          "slide 4: 1.544% of pixels differ",
+          "slide 6: 0.959% of pixels differ",
+          "slide 8: 1.215% of pixels differ",
+          "slide 10: 1.705% of pixels differ",
+          "slide 12: 1.671% of pixels differ",
+          "slide 13: 2.674% of pixels differ",
+          "slide 14: 2.576% of pixels differ"
+        ]
+      },
+      "first_open": {
+        "package": {
+          "slides": 14,
+          "animations": 40,
+          "transitions": 7,
+          "morph": 7,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 77,
+          "av_media": 0,
+          "charts": 0,
+          "smartart": 8,
+          "embedded_fonts": 0
+        },
+        "loaded": {
+          "slides": 14,
+          "animations": 37,
+          "transitions": 7,
+          "morph": 7,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 19,
+          "av_media": 0,
+          "slide_size_pt": [
+            960.0,
+            540.0
+          ]
+        },
+        "animation_slides_that_differ": [
+          [
+            10,
+            5,
+            2
+          ]
+        ]
+      },
+      "speaker_notes_non_empty": 0,
+      "path": "decks/02-morph-smartart-nl.pptx",
+      "source_url": "https://zenodo.org/records/24307200/files/Presentatie%20LauraVriese%20SDM%20Connect%202026.pptx?download=1"
+    },
+    {
+      "file": "03-japanese-chart-4x3-ppt2010.pptx",
+      "title": "電子メールによる依頼行動の展開から見る中間言語の発達―中国人日本語学習者と母語話者の相違を中心に―",
+      "authors": [
+        "王冠亮",
+        "史琨茹"
+      ],
+      "published": "2018-12-16",
+      "landing_page": "https://zenodo.org/records/5089103",
+      "doi": "10.5281/zenodo.5089103",
+      "original_file_name": "王冠亮 和 史琨茹 - 2018 - 電子メールによる依頼行動の展開から見る中間言語の発達―中国人日本語学習者と母語話者の相違を中心に―.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/5089103",
+      "modified": false,
+      "authoring_app": "Microsoft Office PowerPoint 14.0000 (2010)",
+      "docprops_creator": "okanryo",
+      "slides": 40,
+      "slide_size_emu": [
+        9144000,
+        6858000
+      ],
+      "aspect": "4:3",
+      "features": [
+        "theme \"Office 主题​​\"",
+        "charts: 1",
+        "tables: 21",
+        "entrance effects: 3",
+        "notes slide parts: 40",
+        "CJK characters: 6634"
+      ],
+      "why": "Older PowerPoint (2010), 4:3, native chart, Japanese (CJK) text, speaker notes",
+      "sha256": "f80ec336c5576ee53be713585e98b0f665a0d12b1d2f2cf370dc38ed615a9d78",
+      "md5_matches_zenodo": true,
+      "bytes": 394735,
+      "round_trip": {
+        "summary": "40 slides, 0 parts damaged on open, 0 losses",
+        "losses": []
+      },
+      "first_open": {
+        "package": {
+          "slides": 40,
+          "animations": 3,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 37,
+          "sections": 0,
+          "layouts": 11,
+          "av_media": 0,
+          "charts": 1,
+          "smartart": 0,
+          "embedded_fonts": 0
+        },
+        "loaded": {
+          "slides": 40,
+          "animations": 3,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 37,
+          "sections": 0,
+          "layouts": 11,
+          "av_media": 0,
+          "slide_size_pt": [
+            720.0,
+            540.0
+          ]
+        },
+        "animation_slides_that_differ": []
+      },
+      "speaker_notes_non_empty": 37,
+      "path": "decks/03-japanese-chart-4x3-ppt2010.pptx",
+      "source_url": "https://zenodo.org/records/5089103/files/%E7%8E%8B%E5%86%A0%E4%BA%AE%20%E5%92%8C%20%E5%8F%B2%E7%90%A8%E8%8C%B9%20-%202018%20-%20%E9%9B%BB%E5%AD%90%E3%83%A1%E3%83%BC%E3%83%AB%E3%81%AB%E3%82%88%E3%82%8B%E4%BE%9D%E9%A0%BC%E8%A1%8C%E5%8B%95%E3%81%AE%E5%B1%95%E9%96%8B%E3%81%8B%E3%82%89%E8%A6%8B%E3%82%8B%E4%B8%AD%E9%96%93%E8%A8%80%E8%AA%9E%E3%81%AE%E7%99%BA%E9%81%94%E2%80%95%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%AD%A6%E7%BF%92%E8%80%85%E3%81%A8%E6%AF%8D%E8%AA%9E%E8%A9%B1%E8%80%85%E3%81%AE%E7%9B%B8%E9%81%95%E3%82%92%E4%B8%AD%E5%BF%83%E3%81%AB%E2%80%95.pptx?download=1"
+    },
+    {
+      "file": "04-arabic-morph-motion-paths.pptx",
+      "title": "The Role of Formal and Informal Communication in Organizing Work in the Organization: A Case Study of Algeria Post",
+      "authors": [
+        "Yagoub, Selma",
+        "Kello, Hiba"
+      ],
+      "published": "2026-10-26",
+      "landing_page": "https://zenodo.org/records/23898541",
+      "doi": "10.5281/zenodo.23898541",
+      "original_file_name": "دور الاتصال الرسمي وغير الرسمي في تنظيم العمل بالمنظمة.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/23898541",
+      "modified": false,
+      "authoring_app": "Microsoft Office PowerPoint 15.0000 (2013)",
+      "docprops_creator": "",
+      "slides": 19,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "theme \"Office Theme\"",
+        "cropped pictures: 9",
+        "entrance effects: 179",
+        "emphasis effects: 52",
+        "motion paths: 341",
+        "Morph slides: 16",
+        "notes slide parts: 1",
+        "Arabic/Hebrew characters: 3225",
+        "slides with <p:transition>: 19"
+      ],
+      "why": "Arabic right-to-left text, Morph, emphasis effects, 341 motion-path effects (PowerPoint 2013)",
+      "sha256": "94fef8f0aa4457f6b6e2c759c79fd27178599f31df734fb5e438a12e320a8bdf",
+      "md5_matches_zenodo": true,
+      "bytes": 1737131,
+      "round_trip": {
+        "summary": "19 slides, 0 parts damaged on open, 0 losses",
+        "losses": []
+      },
+      "first_open": {
+        "package": {
+          "slides": 19,
+          "animations": 572,
+          "transitions": 19,
+          "morph": 16,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 11,
+          "av_media": 0,
+          "charts": 0,
+          "smartart": 0,
+          "embedded_fonts": 0
+        },
+        "loaded": {
+          "slides": 19,
+          "animations": 572,
+          "transitions": 19,
+          "morph": 16,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 11,
+          "av_media": 0,
+          "slide_size_pt": [
+            960.0,
+            540.0
+          ]
+        },
+        "animation_slides_that_differ": []
+      },
+      "speaker_notes_non_empty": 0,
+      "path": "decks/04-arabic-morph-motion-paths.pptx",
+      "source_url": "https://zenodo.org/records/23898541/files/%D8%AF%D9%88%D8%B1%20%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%20%D9%88%D8%BA%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%20%D9%81%D9%8A%20%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85%D8%A9.pptx?download=1"
+    },
+    {
+      "file": "05-video-smartart.pptx",
+      "title": "That don't impress me much: The effect of the CEO's displayed complex emotions in acquisitions announcement interviews on market response",
+      "authors": [
+        "Röttger, Jonas"
+      ],
+      "published": "2023-05-30",
+      "landing_page": "https://zenodo.org/records/7985815",
+      "doi": "10.5281/zenodo.7985815",
+      "original_file_name": "233749.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/7985815",
+      "modified": false,
+      "authoring_app": "Microsoft Office PowerPoint 16.0000 (2016 or later (Microsoft 365))",
+      "docprops_creator": "Röttger, J. (Jonas)",
+      "slides": 22,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "custom masters/layouts (1 masters, 12 layouts)",
+        "theme \"5_Basis pagina\"",
+        "SmartArt diagrams: 2",
+        "tables: 2",
+        "entrance effects: 13",
+        "hyperlinks: 1",
+        "slides with <p:transition>: 22",
+        "audio/video files: 1 (video 1, audio 0)"
+      ],
+      "why": "Embedded video (MP4), SmartArt, tables",
+      "sha256": "66a47b17cad4ca9fefc330caff80a64e812a53cc85790fe417248ea0e3a4bf01",
+      "md5_matches_zenodo": true,
+      "bytes": 2690138,
+      "round_trip": {
+        "summary": "22 slides, 0 parts damaged on open, 2 losses",
+        "losses": [
+          "slide 3: 2.644% of pixels differ",
+          "slide 10: 3.444% of pixels differ"
+        ]
+      },
+      "first_open": {
+        "package": {
+          "slides": 22,
+          "animations": 14,
+          "transitions": 22,
+          "morph": 0,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 12,
+          "av_media": 1,
+          "charts": 0,
+          "smartart": 2,
+          "embedded_fonts": 0
+        },
+        "loaded": {
+          "slides": 22,
+          "animations": 14,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 12,
+          "av_media": 1,
+          "slide_size_pt": [
+            960.0,
+            540.0
+          ]
+        },
+        "animation_slides_that_differ": []
+      },
+      "speaker_notes_non_empty": 0,
+      "path": "decks/05-video-smartart.pptx",
+      "source_url": "https://zenodo.org/records/7985815/files/233749.pptx?download=1"
+    },
+    {
+      "file": "06-sections-masters-epfl.pptx",
+      "title": "Training \"Data Organization & Storage Solutions\"",
+      "authors": [
+        "EPFL Library"
+      ],
+      "published": "2026-06-25",
+      "landing_page": "https://zenodo.org/records/20758495",
+      "doi": "10.5281/zenodo.20758495",
+      "original_file_name": "20260331_Data_Organization_Storage_Solutions.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/20758495",
+      "modified": false,
+      "authoring_app": "Microsoft Office PowerPoint 16.0000 (2016 or later (Microsoft 365))",
+      "docprops_creator": "Francesco",
+      "slides": 62,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "custom masters/layouts (14 masters, 34 layouts)",
+        "theme \"3_Thème Office\"",
+        "tables: 15",
+        "groups: 56",
+        "cropped pictures: 73",
+        "entrance effects: 84",
+        "exit effects: 4",
+        "motion paths: 24",
+        "hyperlinks: 173",
+        "equations: 4",
+        "notes slide parts: 53",
+        "sections"
+      ],
+      "why": "Sections, 14 masters, exit and motion-path animations, one native equation",
+      "sha256": "8668b7ede72486870d1bfe54d94140ed5f8b4ab5200ce924a2fbd5278d7383cf",
+      "md5_matches_zenodo": true,
+      "bytes": 12242738,
+      "round_trip": {
+        "summary": "62 slides, 0 parts damaged on open, 8 losses",
+        "losses": [
+          "slide 5: 0.427% of pixels differ",
+          "slide 6: 0.348% of pixels differ",
+          "slide 14: 0.968% of pixels differ",
+          "slide 44: 1.655% of pixels differ",
+          "slide 45: 1.547% of pixels differ",
+          "slide 47: 0.231% of pixels differ",
+          "slide 49: 0.693% of pixels differ",
+          "slide 55: 1.065% of pixels differ"
+        ]
+      },
+      "first_open": {
+        "package": {
+          "slides": 62,
+          "animations": 112,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 28,
+          "sections": 7,
+          "layouts": 34,
+          "av_media": 0,
+          "charts": 0,
+          "smartart": 0,
+          "embedded_fonts": 0
+        },
+        "loaded": {
+          "slides": 62,
+          "animations": 112,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 28,
+          "sections": 7,
+          "layouts": 2,
+          "av_media": 0,
+          "slide_size_pt": [
+            960.0,
+            540.0
+          ]
+        },
+        "animation_slides_that_differ": []
+      },
+      "speaker_notes_non_empty": 28,
+      "path": "decks/06-sections-masters-epfl.pptx",
+      "source_url": "https://zenodo.org/records/20758495/files/20260331_Data_Organization_Storage_Solutions.pptx?download=1"
+    },
+    {
+      "file": "07-wps-chinese-equations.pptx",
+      "title": "化核坐标系统与素源模族 2kG±1核元提升的代数、算术及几何统一框架",
+      "authors": [
+        "Akang"
+      ],
+      "published": "2026-11-10",
+      "landing_page": "https://zenodo.org/records/24101871",
+      "doi": "10.5281/zenodo.24101871",
+      "original_file_name": "化核坐标系统与素源模族 2kG±1：赋值—核元—几何统一框架.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/24101871",
+      "modified": false,
+      "authoring_app": "WPS Office presentation (\"WPS 演示\") 14.0000",
+      "docprops_creator": "",
+      "slides": 22,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "custom masters/layouts (2 masters, 12 layouts)",
+        "theme \"Office 主题​​\"",
+        "tables: 11",
+        "equations: 180",
+        "notes slide parts: 22",
+        "CJK characters: 3472"
+      ],
+      "why": "56 native equations, Chinese text; written by WPS Office (another OOXML writer)",
+      "sha256": "72894323f3e0b1683130b401cdaaad374c304f5360a6a3fd3e3473d12597eeac",
+      "md5_matches_zenodo": true,
+      "bytes": 467268,
+      "round_trip": {
+        "summary": "22 slides, 0 parts damaged on open, 0 losses",
+        "losses": []
+      },
+      "first_open": {
+        "package": {
+          "slides": 22,
+          "animations": 0,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 7,
+          "sections": 0,
+          "layouts": 12,
+          "av_media": 0,
+          "charts": 0,
+          "smartart": 0,
+          "embedded_fonts": 0
+        },
+        "loaded": {
+          "slides": 22,
+          "animations": 0,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 7,
+          "sections": 0,
+          "layouts": 11,
+          "av_media": 0,
+          "slide_size_pt": [
+            960.0,
+            540.0
+          ]
+        },
+        "animation_slides_that_differ": []
+      },
+      "speaker_notes_non_empty": 7,
+      "path": "decks/07-wps-chinese-equations.pptx",
+      "source_url": "https://zenodo.org/records/24101871/files/%E5%8C%96%E6%A0%B8%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E4%B8%8E%E7%B4%A0%E6%BA%90%E6%A8%A1%E6%97%8F%202kG%C2%B11%EF%BC%9A%E8%B5%8B%E5%80%BC%E2%80%94%E6%A0%B8%E5%85%83%E2%80%94%E5%87%A0%E4%BD%95%E7%BB%9F%E4%B8%80%E6%A1%86%E6%9E%B6.pptx?download=1"
+    },
+    {
+      "file": "08-google-slides-arabic.pptx",
+      "title": "شرائح المراجعين المفتوحة في إفريقيا للوحدة التدريبية الثانية",
+      "authors": [
+        "PREreview",
+        "Munene, Aurelia",
+        "Saderi, Daniela",
+        "Havemann, Johanna",
+        "Obanda, Johanssen",
+        "Owango, Joy",
+        "Ngugi, Joyce Wangari",
+        "Korzec, Kornelia",
+        "Yahia Mohamed Elkheir, Lamis",
+        "Salem Youssef, Mohamed",
+        "Namoune, Rachida",
+        "Onwuchekwa, Godwyns"
+      ],
+      "published": "2023-01-06",
+      "landing_page": "https://zenodo.org/records/7509906",
+      "doi": "10.5281/zenodo.7509906",
+      "original_file_name": "Open Peer Reviewers in Africa - Module II Slide deck (ARABIC).pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/7509906",
+      "modified": false,
+      "authoring_app": "Google Slides (inferred: shapes named \"Google Shape;…\", no docProps/app.xml)",
+      "docprops_creator": null,
+      "slides": 45,
+      "slide_size_emu": [
+        9144000,
+        5143500
+      ],
+      "aspect": "16:9",
+      "features": [
+        "custom masters/layouts (1 masters, 12 layouts)",
+        "tables: 6",
+        "groups: 12",
+        "cropped pictures: 24",
+        "entrance effects: 15",
+        "hyperlinks: 56",
+        "notes slide parts: 45",
+        "Arabic/Hebrew characters: 14986",
+        "embedded fonts"
+      ],
+      "why": "Google Slides export, Arabic right-to-left text, embedded fonts, speaker notes on 44 slides",
+      "sha256": "a04b1f0d87c42003bf68d850711c0c5b3f0147ed02ccc2f4a9e5d22e39687ccb",
+      "md5_matches_zenodo": true,
+      "bytes": 1852865,
+      "round_trip": {
+        "summary": "45 slides, 0 parts damaged on open, 0 losses",
+        "losses": []
+      },
+      "first_open": {
+        "package": {
+          "slides": 45,
+          "animations": 15,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 44,
+          "sections": 0,
+          "layouts": 12,
+          "av_media": 0,
+          "charts": 0,
+          "smartart": 0,
+          "embedded_fonts": 5
+        },
+        "loaded": {
+          "slides": 45,
+          "animations": 15,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 44,
+          "sections": 0,
+          "layouts": 12,
+          "av_media": 0,
+          "slide_size_pt": [
+            720.0,
+            405.0
+          ]
+        },
+        "animation_slides_that_differ": []
+      },
+      "speaker_notes_non_empty": 44,
+      "path": "decks/08-google-slides-arabic.pptx",
+      "source_url": "https://zenodo.org/records/7509906/files/Open%20Peer%20Reviewers%20in%20Africa%20-%20Module%20II%20Slide%20deck%20%28ARABIC%29.pptx?download=1"
+    },
+    {
+      "file": "09-keynote-workshop.pptx",
+      "title": "Literature workflows from search to analysis – Workshop report",
+      "authors": [
+        "Urbach, Davnah",
+        "Krug, Rainer M",
+        "Agosti, Donat",
+        "Camperio, Giorgia",
+        "Ruch, Patrick",
+        "Zemp, Delphine Clara"
+      ],
+      "published": "2026-06-23",
+      "landing_page": "https://zenodo.org/records/20811703",
+      "doi": "10.5281/zenodo.20811703",
+      "original_file_name": "Workshop Feedback.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/20811703",
+      "modified": false,
+      "authoring_app": "Apple Keynote (inferred: empty docProps, Keynote theme \"Dynamic Light\", .key original in the same record)",
+      "docprops_creator": null,
+      "slides": 10,
+      "slide_size_emu": [
+        24384000,
+        13716000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "custom masters/layouts (1 masters, 17 layouts)",
+        "theme \"33_DynamicLight\"",
+        "entrance effects: 11",
+        "motion paths: 1",
+        "hyperlinks: 1",
+        "slides with <p:transition>: 10"
+      ],
+      "why": "Keynote export, motion-path animations",
+      "sha256": "f1d239c382b106ab52e8e2026d92da3b1b744430b6cd627a1c733bee05f174ce",
+      "md5_matches_zenodo": true,
+      "bytes": 14920469,
+      "round_trip": {
+        "summary": "10 slides, 0 parts damaged on open, 0 losses",
+        "losses": []
+      },
+      "first_open": {
+        "package": {
+          "slides": 10,
+          "animations": 12,
+          "transitions": 10,
+          "morph": 0,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 17,
+          "av_media": 0,
+          "charts": 0,
+          "smartart": 0,
+          "embedded_fonts": 0
+        },
+        "loaded": {
+          "slides": 10,
+          "animations": 12,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 17,
+          "av_media": 0,
+          "slide_size_pt": [
+            1920.0,
+            1080.0
+          ]
+        },
+        "animation_slides_that_differ": []
+      },
+      "speaker_notes_non_empty": 0,
+      "path": "decks/09-keynote-workshop.pptx",
+      "source_url": "https://zenodo.org/records/20811703/files/Workshop%20Feedback.pptx?download=1"
+    },
+    {
+      "file": "10-libreoffice-workshop.pptx",
+      "title": "Workshop \"Naming Files and Folders - Best Practices at the Microscope\" from CRC TRR 384 IN-CODE",
+      "authors": [
+        "Lampe, André",
+        "Giuliani, Claudia",
+        "Binder, Harald",
+        "Schmoranzer, Jan"
+      ],
+      "published": "2026-04-21",
+      "landing_page": "https://zenodo.org/records/19680929",
+      "doi": "10.5281/zenodo.19680929",
+      "original_file_name": "Workshop Naming Files and Folders - Best Practice at the Microscop IN-CODE v1.0_PPTX.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/19680929",
+      "modified": false,
+      "authoring_app": "LibreOffice 25.2.7.2 (LibreOffice/25.2.7.2$Windows_X86_64 LibreOffice_project/5cbfd1ab6520636bb5f7b99185aa69bd7456825d)",
+      "docprops_creator": "Donat, Stefan",
+      "slides": 24,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "custom masters/layouts (3 masters, 4 layouts)",
+        "theme \"Office\"",
+        "groups: 14",
+        "entrance effects: 144",
+        "hyperlinks: 21",
+        "slides with <p:transition>: 24"
+      ],
+      "why": "LibreOffice Impress export",
+      "sha256": "36a652b77bca6b4d305825fd9e4d0efa1201ac099c2bc3498c5789f4a2aba8c1",
+      "md5_matches_zenodo": true,
+      "bytes": 3870922,
+      "round_trip": {
+        "summary": "24 slides, 0 parts damaged on open, 23 losses",
+        "losses": [
+          "slide 1: 1.189% of pixels differ",
+          "slide 2: 4.767% of pixels differ",
+          "slide 3: 0.910% of pixels differ",
+          "slide 4: 2.229% of pixels differ",
+          "slide 5: 2.299% of pixels differ",
+          "slide 6: 1.527% of pixels differ",
+          "slide 7: 3.873% of pixels differ",
+          "slide 8: 2.233% of pixels differ",
+          "slide 9: 3.268% of pixels differ",
+          "slide 10: 3.900% of pixels differ",
+          "slide 11: 3.588% of pixels differ",
+          "slide 12: 3.225% of pixels differ",
+          "slide 13: 1.375% of pixels differ",
+          "slide 14: 0.899% of pixels differ",
+          "slide 15: 1.803% of pixels differ",
+          "slide 16: 1.459% of pixels differ",
+          "slide 17: 1.286% of pixels differ",
+          "slide 18: 1.085% of pixels differ",
+          "slide 19: 1.296% of pixels differ",
+          "slide 20: 1.245% of pixels differ",
+          "slide 21: 3.828% of pixels differ",
+          "slide 23: 5.573% of pixels differ",
+          "slide 24: 0.611% of pixels differ"
+        ]
+      },
+      "first_open": {
+        "package": {
+          "slides": 24,
+          "animations": 144,
+          "transitions": 24,
+          "morph": 0,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 4,
+          "av_media": 0,
+          "charts": 0,
+          "smartart": 0,
+          "embedded_fonts": 0
+        },
+        "loaded": {
+          "slides": 24,
+          "animations": 136,
+          "transitions": 0,
+          "morph": 0,
+          "notes": 0,
+          "sections": 0,
+          "layouts": 1,
+          "av_media": 0,
+          "slide_size_pt": [
+            960.0,
+            540.0
+          ]
+        },
+        "animation_slides_that_differ": [
+          [
+            7,
+            9,
+            1
+          ]
+        ]
+      },
+      "speaker_notes_non_empty": 0,
+      "path": "decks/10-libreoffice-workshop.pptx",
+      "source_url": "https://zenodo.org/records/19680929/files/Workshop%20Naming%20Files%20and%20Folders%20-%20Best%20Practice%20at%20the%20Microscop%20IN-CODE%20v1.0_PPTX.pptx?download=1"
+    }
+  ],
+  "licence_allowlist_used": [
+    "CC-BY-4.0"
+  ],
+  "coverage_gaps": [
+    "Embedded audio: no openly licensed deck found with an audio part (video is covered by deck 05).",
+    "Hebrew: found (alternate A11, Zenodo 19181796) but not in the ten; right-to-left is covered by Arabic decks 04 and 08.",
+    "Native PowerPoint equations in quantity: deck 06 has one; deck 07 (WPS) has 56; alternate A3 (Zenodo 13984443) has 65 from PowerPoint.",
+    "Only one native chart (deck 03); alternates A5-A7 have more.",
+    "PowerPoint for Mac and PowerPoint 2007 found only among alternates (A6, A7, A9)."
+  ],
+  "alternates": [
+    {
+      "id": "A1",
+      "landing_page": "https://zenodo.org/records/18644257",
+      "licence": "CC-BY-4.0",
+      "why": "132 slides, Arabic, embedded video"
+    },
+    {
+      "id": "A2",
+      "landing_page": "https://zenodo.org/records/5849632",
+      "licence": "CC-BY-4.0",
+      "why": "355 slides, 563 entrance effects"
+    },
+    {
+      "id": "A3",
+      "landing_page": "https://zenodo.org/records/13984443",
+      "licence": "CC-BY-4.0",
+      "why": "65 native PowerPoint equations"
+    },
+    {
+      "id": "A4",
+      "landing_page": "https://zenodo.org/records/7084068",
+      "licence": "CC-BY-4.0",
+      "why": "equations, Chinese, motion paths"
+    },
+    {
+      "id": "A5",
+      "landing_page": "https://zenodo.org/records/19351260",
+      "licence": "CC-BY-4.0",
+      "why": "ONLYOFFICE 8.3 writer, native charts"
+    },
+    {
+      "id": "A6",
+      "landing_page": "https://zenodo.org/records/17694716",
+      "licence": "CC-BY-4.0",
+      "why": "PowerPoint for Mac 16, native charts"
+    },
+    {
+      "id": "A7",
+      "landing_page": "https://zenodo.org/records/24070757",
+      "licence": "CC-BY-4.0",
+      "why": "PowerPoint 12.0 (2007), native charts"
+    },
+    {
+      "id": "A8",
+      "landing_page": "https://zenodo.org/records/10043580",
+      "licence": "CC-BY-4.0",
+      "why": "second Keynote export (theme Basic White)"
+    },
+    {
+      "id": "A9",
+      "landing_page": "https://zenodo.org/records/20413048",
+      "licence": "CC-BY-4.0",
+      "why": "PowerPoint for Mac, Morph, SmartArt, 4 masters"
+    },
+    {
+      "id": "A10",
+      "landing_page": "https://zenodo.org/records/5089084",
+      "licence": "CC-BY-4.0",
+      "why": "WPS, Chinese, exit and motion-path effects"
+    },
+    {
+      "id": "A11",
+      "landing_page": "https://zenodo.org/records/19181796",
+      "licence": "CC-BY-4.0",
+      "why": "Hebrew text, tables, notes"
+    }
+  ],
+  "rejected": [
+    {
+      "what": "Zenodo NC/ND-licensed .pptx (43 files)",
+      "why": "NC/ND not needed; covered by allowed decks"
+    },
+    {
+      "what": "Zenodo GPL-3.0 (4) and unlicensed (4) .pptx",
+      "why": "not on the allowlist"
+    },
+    {
+      "what": "https://zenodo.org/records/19105757, https://zenodo.org/records/19106059",
+      "why": "OLE compound files named .pptx, not Office Open XML"
+    },
+    {
+      "what": "https://zenodo.org/records/21262249",
+      "why": "download stopped part-way; not evaluated"
+    },
+    {
+      "what": "GitHub code-search .pptx hits in permissive repositories (177 files, 81 repositories)",
+      "why": "code licence is a weak statement for slide content; mostly HTML pages, Git LFS pointers or tiny generated decks"
+    },
+    {
+      "what": "figshare search API",
+      "why": "no relevant .pptx items"
+    }
+  ],
+  "blocked_hosts": {
+    "at_start": [
+      "zenodo.org",
+      "figshare.com",
+      "api.figshare.com",
+      "osf.io",
+      "api.osf.io",
+      "commons.wikimedia.org",
+      "www.nasa.gov"
+    ],
+    "after_owner_updated_policy": [],
+    "note": "Proxy answered 403 until the owner updated the network policy; nothing was routed around a block."
+  }
+}
