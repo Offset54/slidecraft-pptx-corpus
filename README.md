@@ -1,13 +1,13 @@
 # SlideCraft `.pptx` round-trip corpus
 
-Ten real-world PowerPoint decks, openly licensed, for SlideCraft's `.pptx` round-trip test
+Fourteen real-world PowerPoint decks, openly licensed, for SlideCraft's `.pptx` round-trip test
 (`crates/engine/tests/it/pptx_roundtrip.rs` in Offset54/deckcraft, test
 `an_external_corpus_survives_a_pptx_round_trip`). The test opens every deck, saves it as
 `.pptx`, opens it again, and reports what was lost.
 
 ## Licences
 
-The decks are third-party works. **Each keeps its own licence**, which is CC-BY-4.0 for all ten.
+The decks are third-party works. **Each keeps its own licence**, which is CC-BY-4.0 for all fourteen.
 Authors, titles, sources and licence links are in [`ATTRIBUTION.md`](ATTRIBUTION.md), and the
 licence text is in [`LICENSES/`](LICENSES). The files are unmodified, byte for byte as published
 on Zenodo, and [`manifest.json`](manifest.json) records their SHA-256 values. Nothing here was
@@ -42,6 +42,15 @@ The decks, in `decks/`:
 | `08-google-slides-arabic.pptx` | Google Slides (inferred) | 45 |
 | `09-keynote-workshop.pptx` | Apple Keynote (inferred) | 10 |
 | `10-libreoffice-workshop.pptx` | LibreOffice 25.2 | 24 |
+| `11-mac-audio-narration.pptx` | PowerPoint for Mac 16 | 9 |
+| `12-ppt-equations-tables.pptx` | PowerPoint 16.0 | 44 |
+| `13-mac-charts-notes.pptx` | PowerPoint for Mac 16 | 49 |
+| `14-ppt2007-charts.pptx` | PowerPoint 2007 | 24 |
+
+Decks 11–14 were added on 2026-11-24 to fill coverage gaps: embedded audio (11), native
+PowerPoint equations in quantity (12), PowerPoint for Mac (11, 13), PowerPoint 2007 (14) and more
+native charts (13, 14). The feature table below covers decks 1–10; the counts for 11–14 are in
+`manifest.json`.
 
 ## Feature coverage
 
@@ -74,14 +83,10 @@ The decks, in `decks/`:
 | 16:9 | | ✓ | | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 100+ slides | ✓ 137 | | | | | | | | | |
 
-### Not covered by any openly licensed deck I found
+### Not covered
 
-- **Embedded audio.** No CC deck carried an audio part. Video is covered.
-- **Hebrew in the ten.** Right-to-left text is covered by two Arabic decks. One Hebrew deck was
-  found (Zenodo 19181796) but left out: it has 8 slides and no other feature the ten lack.
-- **Native PowerPoint equations in quantity.** Deck 6 has a single PowerPoint equation and deck 7
-  has 56 from WPS. A PowerPoint deck with 65 equations (Zenodo 13984443) was left out to make
-  room for WPS.
-- **Charts beyond one.** Only deck 3 has a native chart. Other Zenodo decks have more; see the deckcraft manifest.
-- **PowerPoint for Mac and PowerPoint 2007.** Both were found (see the alternates in the deckcraft manifest) but left out of
-  the ten.
+- **Hebrew in the corpus.** Right-to-left text is covered by two Arabic decks. One Hebrew deck was
+  found (Zenodo 19181796) but left out: it has 8 slides and no other feature the corpus lacks.
+
+Gaps filled on 2026-11-24 by decks 11–14: embedded audio, native PowerPoint equations in
+quantity, more than one native chart, PowerPoint for Mac and PowerPoint 2007.

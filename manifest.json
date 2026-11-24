@@ -829,17 +829,198 @@
       "speaker_notes_non_empty": 0,
       "path": "decks/10-libreoffice-workshop.pptx",
       "source_url": "https://zenodo.org/records/19680929/files/Workshop%20Naming%20Files%20and%20Folders%20-%20Best%20Practice%20at%20the%20Microscop%20IN-CODE%20v1.0_PPTX.pptx?download=1"
+    },
+    {
+      "file": "11-mac-audio-narration.pptx",
+      "title": "CICE Consortium Progress and Plans, October 2020",
+      "authors": [
+        "Hunke, Elizabeth",
+        "Roberts, Andrew"
+      ],
+      "published": "2020-10-23",
+      "landing_page": "https://zenodo.org/records/4122287",
+      "doi": "10.5281/zenodo.4122287",
+      "original_file_name": "Hunke_Elizabeth_PS2-Sea_Ice-2020-10-26_revised_with_narration.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/4122287",
+      "modified": false,
+      "authoring_app": "Microsoft Macintosh PowerPoint 16.0000 (2016 or later)",
+      "docprops_creator": "Microsoft Office User",
+      "slides": 9,
+      "slide_size_emu": [
+        9144000,
+        5143500
+      ],
+      "aspect": "16:9",
+      "features": [
+        "masters/layouts: 2/16",
+        "theme \"Office Theme\"",
+        "tables: 1",
+        "groups: 8",
+        "audio parts: 9",
+        "hyperlinks: 9"
+      ],
+      "why": "Embedded audio (narration on every slide), PowerPoint for Mac",
+      "sha256": "00a62dece537b05a7a38019ddb9089d486702aad1f4960b8bc5b8169f953e7ac",
+      "md5_matches_zenodo": true,
+      "bytes": 15725759,
+      "added": "2026-11-24",
+      "path": "decks/11-mac-audio-narration.pptx",
+      "source_url": "https://zenodo.org/records/4122287/files/Hunke_Elizabeth_PS2-Sea_Ice-2020-10-26_revised_with_narration.pptx?download=1",
+      "round_trip": {
+        "summary": "9 slides, 0 parts damaged on open, 9 losses",
+        "losses": [
+          "slide 1: media play effect's duration (span_ms) became 0",
+          "slide 2: media play effect's duration (span_ms) became 0",
+          "slide 3: media play effect's duration (span_ms) became 0",
+          "slide 4: media play effect's duration (span_ms) became 0",
+          "slide 5: media play effect's duration (span_ms) became 0",
+          "slide 6: media play effect's duration (span_ms) became 0",
+          "slide 7: media play effect's duration (span_ms) became 0",
+          "slide 8: media play effect's duration (span_ms) became 0",
+          "slide 9: media play effect's duration (span_ms) became 0"
+        ],
+        "measured": "2026-11-24, deckcraft claude/owner-decisions at e3371cd"
+      }
+    },
+    {
+      "file": "12-ppt-equations-tables.pptx",
+      "title": "Descriptive statistics",
+      "authors": [
+        "Slavec, Ana"
+      ],
+      "published": "2024-10-23",
+      "landing_page": "https://zenodo.org/records/13984443",
+      "doi": "10.5281/zenodo.13984443",
+      "original_file_name": "02_Descriptive statistics2024_2025.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/13984443",
+      "modified": false,
+      "authoring_app": "Microsoft Office PowerPoint 16.0000 (2016 or later)",
+      "docprops_creator": "Ana Slavec",
+      "slides": 44,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "masters/layouts: 1/11",
+        "theme \"Office Theme\"",
+        "tables: 16",
+        "equations (a14:m): 65",
+        "hyperlinks: 19",
+        "notes slide parts: 7"
+      ],
+      "why": "Native PowerPoint equations in quantity (65), tables (alternate A3)",
+      "sha256": "94a67e4131e2cefab9a527f01bbba5a2140064ed1446ef3e148c085c6c3687e2",
+      "md5_matches_zenodo": true,
+      "bytes": 3208783,
+      "added": "2026-11-24",
+      "path": "decks/12-ppt-equations-tables.pptx",
+      "source_url": "https://zenodo.org/records/13984443/files/02_Descriptive%20statistics2024_2025.pptx?download=1",
+      "round_trip": {
+        "summary": "44 slides, 0 parts damaged on open, 0 losses",
+        "losses": [],
+        "measured": "2026-11-24, deckcraft claude/owner-decisions at e3371cd"
+      }
+    },
+    {
+      "file": "13-mac-charts-notes.pptx",
+      "title": "Arab AFLI 2025: Insights into Open Access Repositories and Persistent Identifiers from the Arab Region",
+      "authors": [
+        "Lrhoul, Hanae",
+        "Mostafa, Mohamad"
+      ],
+      "published": "2025-11-24",
+      "landing_page": "https://zenodo.org/records/17694716",
+      "doi": "10.5281/zenodo.17694716",
+      "original_file_name": "Afli2025_lrhoul&MM.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/17694716",
+      "modified": false,
+      "authoring_app": "Microsoft Macintosh PowerPoint 16.0000 (2016 or later)",
+      "docprops_creator": "Hanae LRHOUL",
+      "slides": 49,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "masters/layouts: 1/16",
+        "theme \"Thème Office\"",
+        "charts: 2",
+        "groups: 5",
+        "entrance effects: 2",
+        "hyperlinks: 25",
+        "notes slide parts: 49"
+      ],
+      "why": "PowerPoint for Mac, two native charts, notes on every slide (alternate A6)",
+      "sha256": "f6ee2ffa2401f2d5dfa70600a2d5f0201ba66188c10f8ecb9f7ca44fa3d79e0e",
+      "md5_matches_zenodo": true,
+      "bytes": 9403350,
+      "added": "2026-11-24",
+      "path": "decks/13-mac-charts-notes.pptx",
+      "source_url": "https://zenodo.org/records/17694716/files/Afli2025_lrhoul%26MM.pptx?download=1",
+      "round_trip": {
+        "summary": "49 slides, 0 parts damaged on open, 0 losses",
+        "losses": [],
+        "measured": "2026-11-24, deckcraft claude/owner-decisions at e3371cd"
+      }
+    },
+    {
+      "file": "14-ppt2007-charts.pptx",
+      "title": "Machine Learning-Based Prediction of Magnetic Anisotropy Constants and Energy Density in Silicon Electrical Steels: An Integrated CatBoost and Texture-Factor Approach",
+      "authors": [
+        "geruganti, sudhakar"
+      ],
+      "published": "2026-11-09",
+      "landing_page": "https://zenodo.org/records/24070757",
+      "doi": "10.5281/zenodo.24070757",
+      "original_file_name": "CatBoost_Texture_Averaging_Magnetocrystalline_Anisotropy PPT.pptx",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence_stated_at": "https://zenodo.org/records/24070757",
+      "modified": false,
+      "authoring_app": "Microsoft Office PowerPoint 12.0000 (2007)",
+      "docprops_creator": "rgukt",
+      "slides": 24,
+      "slide_size_emu": [
+        12192000,
+        6858000
+      ],
+      "aspect": "16:9",
+      "features": [
+        "masters/layouts: 1/11",
+        "theme \"Office Theme\"",
+        "charts: 2",
+        "tables: 6"
+      ],
+      "why": "PowerPoint 2007 (12.0), two native charts, tables (alternate A7)",
+      "sha256": "bd07fef190767312b42543bbc2b9251fd317ed81d28916801626109266620cc1",
+      "md5_matches_zenodo": true,
+      "bytes": 193129,
+      "added": "2026-11-24",
+      "title_note": "The Zenodo title field continues with a description of the work; only the title proper is given here.",
+      "path": "decks/14-ppt2007-charts.pptx",
+      "source_url": "https://zenodo.org/records/24070757/files/CatBoost_Texture_Averaging_Magnetocrystalline_Anisotropy%20PPT.pptx?download=1",
+      "round_trip": {
+        "summary": "24 slides, 0 parts damaged on open, 0 losses",
+        "losses": [],
+        "measured": "2026-11-24, deckcraft claude/owner-decisions at e3371cd"
+      }
     }
   ],
   "licence_allowlist_used": [
     "CC-BY-4.0"
   ],
   "coverage_gaps": [
-    "Embedded audio: no openly licensed deck found with an audio part (video is covered by deck 05).",
-    "Hebrew: found (alternate A11, Zenodo 19181796) but not in the ten; right-to-left is covered by Arabic decks 04 and 08.",
-    "Native PowerPoint equations in quantity: deck 06 has one; deck 07 (WPS) has 56; alternate A3 (Zenodo 13984443) has 65 from PowerPoint.",
-    "Only one native chart (deck 03); alternates A5-A7 have more.",
-    "PowerPoint for Mac and PowerPoint 2007 found only among alternates (A6, A7, A9)."
+    "Hebrew: found (alternate A11, Zenodo 19181796) but not in the corpus; right-to-left is covered by Arabic decks 04 and 08.",
+    "Filled 2026-11-24: embedded audio (deck 11), native PowerPoint equations in quantity (deck 12), more native charts (13, 14), PowerPoint for Mac (11, 13), PowerPoint 2007 (14)."
   ],
   "alternates": [
     {
@@ -858,7 +1039,8 @@
       "id": "A3",
       "landing_page": "https://zenodo.org/records/13984443",
       "licence": "CC-BY-4.0",
-      "why": "65 native PowerPoint equations"
+      "why": "65 native PowerPoint equations",
+      "status": "added 2026-11-24 as deck 12"
     },
     {
       "id": "A4",
@@ -876,13 +1058,15 @@
       "id": "A6",
       "landing_page": "https://zenodo.org/records/17694716",
       "licence": "CC-BY-4.0",
-      "why": "PowerPoint for Mac 16, native charts"
+      "why": "PowerPoint for Mac 16, native charts",
+      "status": "added 2026-11-24 as deck 13"
     },
     {
       "id": "A7",
       "landing_page": "https://zenodo.org/records/24070757",
       "licence": "CC-BY-4.0",
-      "why": "PowerPoint 12.0 (2007), native charts"
+      "why": "PowerPoint 12.0 (2007), native charts",
+      "status": "added 2026-11-24 as deck 14"
     },
     {
       "id": "A8",
